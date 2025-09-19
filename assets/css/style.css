@@ -498,9 +498,10 @@ textarea:focus {
 
   .intro-background {
     background:
-      linear-gradient(150deg, rgba(11, 15, 25, 0.34) 0%, rgba(11, 15, 25, 0.88) 55%, rgba(11, 15, 25, 0.92) 100%),
-      radial-gradient(circle at 70% 5%, rgba(242, 84, 91, 0.28), transparent 70%),
+      linear-gradient(120deg, rgba(11, 15, 25, 0.34) 50%, rgba(11, 15, 25, 0.8) 30%, rgba(11, 15, 25, 0.88) 100%),
+      radial-gradient(circle at top left, rgba(242, 84, 91, 0.24), transparent 55%),
       url('../img/vin.jpeg') center / cover no-repeat;
+      /* border:2px solid red */
     background-attachment: fixed;
   }
 
