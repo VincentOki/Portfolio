@@ -42,8 +42,7 @@ a:hover {
 
 .section {
   padding: 5rem 0;
-  /* border: 2px solid red */
-} 
+}
 
 .section.grey {
   background: var(--bg-light);
@@ -99,6 +98,21 @@ ul {
 .btn.primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(242, 84, 91, 0.35);
+}
+
+.btn.secondary {
+  background-color: #0077cc;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.7em 1.2em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn.secondary:hover {
+  background-color: #005fa3;
 }
 
 .btn.outline {
@@ -171,10 +185,9 @@ ul {
 
 .intro-background {
   background:
-      linear-gradient(120deg, rgba(11, 15, 25, 0.44) 50%, rgba(11, 15, 25, 0.8) 30%, rgba(11, 15, 25, 0.88) 100%),
+      linear-gradient(120deg, rgba(11, 15, 25, 0.94) 0%, rgba(11, 15, 25, 0.8) 50%, rgba(11, 15, 25, 0.88) 100%),
       radial-gradient(circle at top left, rgba(242, 84, 91, 0.24), transparent 55%),
       url('../img/vin.jpeg') center / cover no-repeat;
-      /* border:2px solid red */
 }
 
 .intro-background section {
@@ -491,8 +504,6 @@ textarea:focus {
     left: 4px;
   }
 
-
-
   .timeline-item {
     grid-template-columns: 1fr;
     padding-left: 1.5rem;
@@ -500,10 +511,9 @@ textarea:focus {
 
   .intro-background {
     background:
-      linear-gradient(120deg, rgba(11, 15, 25, 0.44) 50%, rgba(11, 15, 25, 0.8) 30%, rgba(11, 15, 25, 0.88) 100%),
-      radial-gradient(circle at top left, rgba(242, 84, 91, 0.24), transparent 55%),
+      linear-gradient(150deg, rgba(11, 15, 25, 0.97) 0%, rgba(11, 15, 25, 0.88) 55%, rgba(11, 15, 25, 0.92) 100%),
+      radial-gradient(circle at 70% 5%, rgba(242, 84, 91, 0.28), transparent 70%),
       url('../img/vin.jpeg') center / cover no-repeat;
-      /* border:2px solid red */
     background-attachment: fixed;
   }
 
