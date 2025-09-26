@@ -187,7 +187,7 @@ ul {
   background:
       linear-gradient(120deg, rgba(11, 15, 25, 0.64) 0%, rgba(11, 15, 25, 0.8) 50%, rgba(11, 15, 25, 0.88) 100%),
       radial-gradient(circle at top left, rgba(242, 84, 91, 0.24), transparent 55%),
-      url('../img/vin.jpeg') center / cover no-repeat;
+      url('../img/Vi.png') center / cover no-repeat;
 }
 
 .intro-background section {
